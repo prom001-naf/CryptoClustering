@@ -1,5 +1,30 @@
 # CryptoClustering
 
+## Necessary Tools
+
+To complete this project, ensure you have the following tools and libraries installed and set up in your environment:
+
+1. **Python 3.7+**: Ensure you have Python installed. You can download it from [python.org](https://www.python.org/).
+2. **Jupyter Notebook**: For running the provided `.ipynb` file interactively.
+   - Install it via pip: `pip install notebook`
+3. **Pandas**: For data manipulation and analysis.
+   - Install it via pip: `pip install pandas`
+4. **scikit-learn**: For clustering (K-means), normalization (StandardScaler), and PCA.
+   - Install it via pip: `pip install scikit-learn`
+5. **hvPlot**: For interactive visualizations and scatter plots.
+   - Install it via pip: `pip install hvplot`
+6. **Matplotlib**: For creating line charts for the Elbow curve.
+   - Install it via pip: `pip install matplotlib`
+7. **NumPy**: For numerical computations.
+   - Install it via pip: `pip install numpy`
+8. **Anaconda Environment (Optional)**: To create a virtual environment for managing dependencies. You can download it from [Anaconda](https://www.anaconda.com/).
+
+### Setting Up Your Environment
+1. Clone this repository to your local machine:
+   ```bash
+   git clone <repository_url>
+   cd CryptoClustering
+
 ## Prepare the Data
 
 1. Use the `StandardScaler()` module from scikit-learn to normalize the data from the CSV file.
